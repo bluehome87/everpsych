@@ -28,11 +28,8 @@ class Welcome extends CI_Controller {
 				redirect(site_url().'admin/login');
 			}else{
 			
-				redirect(site_url().'/install');
-				
-			}
-
-      
+				redirect(site_url().'/install');				
+			}      
     }
 	 
 	public function index()
